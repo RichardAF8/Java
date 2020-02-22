@@ -1,0 +1,10 @@
+// Name: Richard Forrester
+// Section: A
+// Program Name: Simple Farm Simulation
+// Description: This program is a farm simulation in which objects (representing animals) are looped in a while loop
+// until their HungerLevel fields represented by an Integer are 0, which means they are full.
+//The animal objects are all children of the parent class Animal and are thus stored in an ArrayList representing the farm
+// During each cycle a for each loop is used to iterate over the Arraylist containing the animals 
+// Information about each animal is printed to the console using their speak and overwritten toString method
+// Subsequently, their feed function is called lowering their hunger level field and then the tick function increases it slightly
+//the tick function is used to represent the passage of time.
